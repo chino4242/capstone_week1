@@ -27,8 +27,9 @@ header {
     justify-content: center;
 }
 
-#image {
-    max-width: 75%;
+img {
+    height: 100%;
+    width: 100%;
     display: block;
     height: auto;
     margin: 0 auto;
