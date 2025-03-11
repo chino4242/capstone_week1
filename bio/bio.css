@@ -38,7 +38,7 @@ h1 {
     text-align:center;
 }
 
-a {
+a:link {
     color: #ce1c1c;
     text-decoration: none;
 }
