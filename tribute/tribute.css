@@ -1,0 +1,39 @@
+header {
+    
+    margin: 30px 0;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#title {
+    font-size: larger;
+    padding: 20 px;
+    text-align: center;
+}
+
+#img-div{
+    background: white;
+    padding: 10px;
+    margin: 0;
+}
+
+#main {
+    background-color: rgb(129, 129, 119);
+}
+
+#img-caption{
+    justify-content: center;
+}
+
+#image {
+    max-width: 75%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#tribute-link{
+    display: inline;
+}
