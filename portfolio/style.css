@@ -40,7 +40,7 @@
   }
   header {
     display: flex;
-    background-color: rgb(179, 166, 166);
+    background-color: #dadcdd;
   }
 
   #kids {
@@ -78,4 +78,8 @@
 
 header {
   justify-content: center;
+}
+
+a:hover {
+  text-decoration: underline;
 }
