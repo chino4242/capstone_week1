@@ -38,11 +38,14 @@
   #root, #__next {
     isolation: isolate;
   }
+
+  /*Makes header a flex container and changes the background color */
   header {
     display: flex;
     background-color: #dadcdd;
   }
 
+  
   #kids {
     border-radius: 50%;
     height: 25%;

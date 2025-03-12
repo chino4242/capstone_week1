@@ -82,16 +82,26 @@
                 </div>
                 </section>
                 <section id="contact">
+                    <div class="container-fluid mt-5">
                     <h2>Contact</h2>
                     <form>
                         <fieldset>
-                            <label>Full Name: </label>
-                            <input type="text" name="name"><br>
-                            <label>Enter your email:</label>
-                            <input type="email" name="email"><br>
-                            <input type="submit" value="Submit">
+                           <div class="row justify-content-center mb-3">
+                                    <label for="name" class="form-label col-sm-3 text-end">Full Name: </label>
+                                    <div class="col-sm-2">
+                                    <input type="text" class="form-control" id="name" placeholder="Enter your Name">
+                                </div>
+                            </div>
+                            <div class="row justify-content-center mb-3">
+                                <label for="email" class="form-label col-sm-3 text-end">Enter your email:</label>
+                                <div class="col-sm-2">
+                                <input type="email" class="form-control" id="email" placeholder="Enter your Email">
+                            </div>
+                        </div>
+                                <input type="submit" value="Submit">
                         </fieldset>
                     </form>
+                </div>
                 </section>
             </article>
         </main>
