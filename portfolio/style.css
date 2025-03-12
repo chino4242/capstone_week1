@@ -40,11 +40,13 @@
   }
   header {
     display: flex;
-    background-color: dimgray;
+    background-color: rgb(179, 166, 166);
   }
 
-  img {
+  #CC {
     border-radius: 50%;
+    height: 25%;
+    width: 25%;
   }
 
   #project_cards {

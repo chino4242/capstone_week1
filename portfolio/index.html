@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Portfolio</title>
         <link href="style.css" type="text/css" rel="stylesheet">
         	<!-- Add bootstrap resources such js and css -->
@@ -21,13 +22,17 @@
     </head>
     <body>
         <header>
-            <nav class="nav-bar navbar-expand-lg bg-body-tertiary">
+            <nav class="nav-bar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a href="#about_me">About Me</a></li>
-                    <li class="nav-item"><a href="#skills">Skills</a></li>
-                    <li class="nav-item"><a href="#projects">Projects</a></li>
-                    <li class="nav-item"><a href="#contact">Contact</a></li>
+                    <div class="navbar header">
+                    <a class="navbar-brand" href="#">Contino Portfolio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active"><a class="nav-link" href="#about_me">About Me</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
             </nav>
@@ -36,15 +41,16 @@
             <article>
                 <section id="about_me">
                     <h1>About me</h1>
-                    <img src="agnes.jpg" alt="Wink">
+                    <img id="CC" src="image.png" alt="CC" class="img-responsive img-circle">
                     <p>This is a very well-formatted section about telling you all about my backstory.</p>
                 </section>
                 <section id="skills">
                     <h2>Skills</h2>
                     <ul>
-                        <li>Magic</li>
-                        <li>Arcane Knowledge</li>
-                        <li>Telepathy</li>
+                        <li>People Leadership</li>
+                        <li>Coaching</li>
+                        <li>Running</li>
+                        <li>Strength Training</li>
                     </ul>
                 </section>
                 <section id="projects">
