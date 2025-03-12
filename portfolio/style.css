@@ -43,7 +43,7 @@
     background-color: rgb(179, 166, 166);
   }
 
-  #CC {
+  #kids {
     border-radius: 50%;
     height: 25%;
     width: 25%;
@@ -53,3 +53,29 @@
     display: flex;
     
   }
+
+  .form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: inline-block;
+    width: 150px; /* Fixed width for all labels */
+    text-align: right; /* Right-align labels */
+    margin-right: 10px; /* Space between label and input */
+}
+
+.form-group input, .form-group textarea {
+    width: calc(100% - 170px); /* Adjust width based on label size */
+    padding: 8px; /* Add some padding */
+}
+
+#about_me, #skills, #projects, #contact {
+  text-align: center;
+  justify-content: center;
+  list-style-position: inside;
+}
+
+header {
+  justify-content: center;
+}

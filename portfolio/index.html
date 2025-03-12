@@ -39,9 +39,9 @@
         </header>
         <main>
             <article>
-                <section id="about_me">
+                <section class="container-fluid" id="about_me">
                     <h1>About me</h1>
-                    <img id="CC" src="kids.png" alt="kids" class="img-responsive img-circle">
+                    <img id="kids" src="kids.png" alt="kids" class="img-responsive img-circle mx-auto d-block">
                     <p>This is a very well-formatted section about telling you all about my backstory.</p>
                 </section>
                 <section id="skills">
@@ -83,6 +83,15 @@
                 </section>
                 <section id="contact">
                     <h2>Contact</h2>
+                    <form>
+                        <fieldset>
+                            <label>Full Name: </label>
+                            <input type="text" name="name"><br>
+                            <label>Enter your email:</label>
+                            <input type="email" name="email"><br>
+                            <input type="submit" value="Submit">
+                        </fieldset>
+                    </form>
                 </section>
             </article>
         </main>
