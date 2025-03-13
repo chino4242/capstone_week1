@@ -43,5 +43,7 @@ body {
 }
 
 footer{
-    color: #5D4037
+    color: #5D4037;
+    justify-content: center;
+    
 }
