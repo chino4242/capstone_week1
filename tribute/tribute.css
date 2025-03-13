@@ -42,3 +42,13 @@ img {
 footer {
     text-align: center;
 }
+
+#tribute-info {
+    text-align: center;
+    list-style-position: inside;
+    font-size: 2em;
+}
+
+li {
+    padding-bottom: 20px;
+}
