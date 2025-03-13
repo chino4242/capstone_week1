@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/*Sets general body formatting */
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -13,12 +14,13 @@ body {
     margin-right: 25%;
 }
 
+/*Centers header and adds bottom margin*/
 header {
 
     text-align: center;
     margin-bottom: 20px;
 }
-
+/*Specifies image width and sets circular border radius */
 .profile-img {
     width: 200px;
     height: auto;
