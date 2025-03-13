@@ -26,17 +26,22 @@
                 <div class="container-fluid">
                     <div class="navbar header">
                         <a class="navbar-brand" href="#"><img alt="Brand" src="brewtiful minds.png" class="img-responsive" height="50px" width="50px"/>Brew-tiful Minds</a>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-            </div>
-            </nav> 
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    </ul>
+                </div>
+                </nav>
         </header>
         <main>
             <section class="hero container-fluid">
-                <h1>Experience the Best Coffee</h1>
+                <h1>Experience the <span id="coffee">Best Coffee</span></h1>
                 <p>Imagine starting each day with the rich aroma of freshly brewed coffee wafting through your office, setting the perfect tone for productivity and creativity.</p>
                 <button>Subscribe Now</button>
             </section>
-            <section class="services">
+            <section class="services" id="services">
                 <div class="row">
                 <h2 class="d-flex justify-content-center mt-3">Services</h2>
             </div>
@@ -68,7 +73,7 @@
             </div>
             </section>
         </main>
-        <section class="about container">
+        <section class="about container" id="about">
             <div class="row">
                 <h4 class="d-flex justify-content-center mt-3">About Brew-tiful Minds</h4>
             </div>
@@ -85,8 +90,19 @@
         </div>
         </div>
     </div>
-        <footer>
-
-        </footer>
+    <footer class="bg-light text-center mt-4">
+        <div class="container p-4">
+            <h5 class="text-uppercase">Contact Us</h5>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-12 mb-4">
+                    
+                    <p>
+                        Email: example@brewtifulminds.com<br>
+                        Phone: (123) 456-7890<br>
+                        Address: 123 Coffee Lane, Brew City, BC 12345
+                    </p>
+                </div>
+        </div>
+    </footer>
     </body>
 </html>

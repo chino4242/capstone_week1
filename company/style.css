@@ -36,3 +36,12 @@ body {
     margin-top: 15px;
     border-radius: 5px;
 }
+
+.hero span {
+    color:#5D4037;
+    background-color: white;
+}
+
+footer{
+    color: #5D4037
+}
