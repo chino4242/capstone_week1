@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!--Sets viewport and width-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Brewtiful Minds Coffee</title>
         <link href="style.css" type="text/css" rel="stylesheet">
@@ -23,11 +22,8 @@
     </head>
     <body>
         <header>
-            <!--Creates Nav-bar and applies Bootstrap classes to it. -->
             <nav class="nav-bar navbar-expand-lg navbar-light bg-light mt-3">
-                <!--Makes the container responsive-->
                 <div class="container-fluid">
-                    <!--Defines the header, including images, button behaviour when expanded vs small. Collapses the navbar and lists out the nav-items-->
                     <div class="navbar header">
                         <a class="navbar-brand" href="#"><img alt="Brand" src="brewtiful minds.png" class="img-responsive" height="50px" width="50px"/>Brew-tiful Minds</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -40,15 +36,11 @@
                 </nav>
         </header>
         <main>
-
-            <!-- Hero Section with background image, text, and call to action button-->
             <section class="hero container-fluid">
                 <h1>Experience the <span id="coffee">Best Coffee</span></h1>
                 <p>Imagine starting each day with the rich aroma of freshly brewed coffee wafting through your office, setting the perfect tone for productivity and creativity.</p>
                 <button>Subscribe Now</button>
             </section>
-            
-            <!-- Services Section with cards, inclusive of images and text -->
             <section class="services" id="services">
                 <div class="row">
                 <h2 class="d-flex justify-content-center mt-3">Services</h2>
@@ -81,8 +73,6 @@
             </div>
             </section>
         </main>
-
-        <!-- About section that's centered and is within a card-->
         <section class="about container" id="about">
             <div class="row">
                 <h4 class="d-flex justify-content-center mt-3">About Brew-tiful Minds</h4>
@@ -100,8 +90,6 @@
         </div>
         </div>
     </div>
-
-    <!--Footer area with contact information-->
     <footer class="bg-light text-center mt-4">
         <div class="container p-4">
             <h5 class="text-uppercase">Contact Us</h5>
@@ -109,10 +97,26 @@
                 <div class="col-lg-6 col-md-12 mb-4">
                     
                     <p>
-                        Email: example@brewtifulminds.com<br>
                         Phone: (123) 456-7890<br>
                         Address: 123 Coffee Lane, Brew City, BC 12345
                     </p>
+                    <form>
+                        <fieldset>
+                           <div class="row justify-content-center mb-3">
+                                    <label for="name" class="form-label col-sm-2">Full Name: </label>
+                                    <div class="col-sm-4">
+                                    <input type="text" class="form-control" id="name" placeholder="Enter your Name">
+                                </div>
+                            </div>
+                            <div class="row justify-content-center mb-3">
+                                <label for="email" class="form-label col-sm-2">Enter your email:</label>
+                                <div class="col-sm-4">
+                                <input type="email" class="form-control" id="email" placeholder="Enter your Email">
+                            </div>
+                        </div>
+                                <input type="submit" value="Submit">
+                        </fieldset>
+                    </form>
                 </div>
         </div>
     </footer>
