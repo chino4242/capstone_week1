@@ -1,5 +1,5 @@
 #carousel img {
-    height: 500px; /* or any desired height */
+    height: 700px; /* or any desired height */
     object-fit: cover; /* Ensures the image covers the entire area without stretching */
     border-radius: 25%;
     margin-top: 50px;
