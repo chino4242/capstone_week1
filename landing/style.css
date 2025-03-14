@@ -1,7 +1,3 @@
-#carousel {
-    margin: 50px;
-}
-
 #carousel img {
     height: 500px; /* or any desired height */
     object-fit: cover; /* Ensures the image covers the entire area without stretching */
