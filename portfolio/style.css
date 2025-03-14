@@ -47,7 +47,6 @@
 
   
   #kids {
-    border-radius: 50%;
     height: 25%;
     width: 25%;
   }
@@ -85,4 +84,8 @@ header {
 
 a:hover {
   text-decoration: underline;
+}
+
+h4, p {
+  text-align: center;
 }
